@@ -1,0 +1,14 @@
+diff --git a/node_modules/@babel/types/lib/builders/builder.js b/node_modules/@babel/types/lib/builders/builder.js
+index 50d1b2a..3742a9f 100644
+--- a/node_modules/@babel/types/lib/builders/builder.js
++++ b/node_modules/@babel/types/lib/builders/builder.js
+@@ -42,9 +42,5 @@ function builder(type, ...args) {
+     i++;
+   });
+ 
+-  for (const key in node) {
+-    (0, _validate.default)(node, key, node[key]);
+-  }
+-
+   return node;
+ }

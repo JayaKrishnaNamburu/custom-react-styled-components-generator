@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-parcel-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0||^6.0.0",
+    "parcel": "^2.0.0",
+    "path-browserify": "^1.0.0",
+    "process": "^0.11.10"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@babel/types": "7.3.3",
+    "@teleporthq/teleport-component-generator": "0.30.0",
+    "@teleporthq/teleport-component-generator-react": "0.30.0",
+    "@teleporthq/teleport-plugin-react-styled-components": "0.16.0",
+    "@teleporthq/teleport-shared": "0.16.0",
+    "patch-package": "^8.0.0"
+  },
+  "overrides": {
+    "@babel/types@>7.3.3": "7.3.3",
+    "@babel/generator@>7.3.3": "7.3.3"
+  }
+}
